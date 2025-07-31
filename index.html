@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prodigy Servicio Técnico</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+      body {
+  background-image: url("https://i.imgur.com/TjfkdwB.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: hsl(0, 0%, 94%);
+}
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.6);
+      min-height: 100vh;
+    }
+    .hero {
+      background-color: #343a40;
+      color: white;
+      padding: 50px 0;
+      text-align: center;
+      position: relative;
+    }
+    .instagram-btn {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      z-index: 10;
+    }
+    @media (max-width: 576px) {
+      .instagram-btn {
+        position: static;
+        display: block;
+        margin: 10px auto 0 auto;
+        width: max-content;
+      }
+    }
+    .service-icon {
+      font-size: 3rem;
+      color: #0d6efd;
+      margin-bottom: 15px;
+    }
+    .btn-whatsapp {
+      background-color: #25d366;
+      color: white;
+    }
+    .btn-whatsapp:hover {
+      background-color: #1ebe5b;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px;
+      margin-top: 50px;
+      position: relative;
+    }
+    .location {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header class="hero">
+      <a href="https://instagram.com/alanezekoch94" target="_blank" class="btn btn-light instagram-btn">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <div class="container">
+        <h1 class="display-4">Prodigy - Servicio Técnico Informático</h1>
+        <p class="lead">Soluciones rápidas y profesionales para tus dispositivos</p>
+      </div>
+    </header>
+
+    <main class="container py-5">
+      <h3 class="text-center mb-5">Ofrezco soluciones profesionales para todo tipo de problemas informáticos. Atención personalizada, a domicilio o remota.</h3>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+        <div class="col">
+          <div class="card h-100 border-0">
+            <div class="card-body">
+              <i class="fas fa-laptop service-icon"></i>
+              <h5 class="card-title">Armado de equipos Gamer y de hogar</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <div class="card-body">
+              <i class="fas fa-network-wired service-icon"></i>
+              <h5 class="card-title">Configuración de redes y Wi-Fi</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <div class="card-body">
+              <i class="fas fa-shield-alt service-icon"></i>
+              <h5 class="card-title">Seguridad y antivirus</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <div class="card-body">
+              <i class="fas fa-database service-icon"></i>
+              <h5 class="card-title">Backup y recuperación de datos</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <div class="card-body">
+              <i class="fas fa-headset service-icon"></i>
+              <h5 class="card-title">Soporte remoto y asesoramiento</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <div class="card-body">
+              <i class="fas fa-cogs service-icon"></i>
+              <h5 class="card-title">Instalación de software y drivers</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="https://wa.me/5491168329003" target="_blank" class="btn btn-whatsapp btn-lg">
+          <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2025 Alan Koch - Todos los derechos reservados</p>
+      <div class="location">
+        📍 Don Torcuato, Buenos Aires
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
